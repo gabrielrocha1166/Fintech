@@ -1,0 +1,68 @@
+body {background: linear-gradient(0deg, rgba(0, 0, 0, 0.27), rgba(0, 0, 0, 0.27)), #1EA6D1;
+}
+
+/*Logo FT*/
+.img-fluid {
+	margin: 12px 0 0 24px;
+}
+
+/* Retângulo branco de fundo */
+
+.retangulo {
+	position: relative;
+	border-radius: 5px;
+	width: 264px;
+	height: 342px;
+	margin: 65px auto;
+
+	background: #FFFFFF;
+}
+
+/* Título: Login */
+h1 {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	text-align: center;
+	color: #000000;
+	font-weight: 600;
+
+	position: relative;
+	width: 100%;
+	top: 45px;
+}
+
+/* Formulário do esqueci minha senha */
+form {
+	margin-top: 75px;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+	margin-left: 16%
+}
+
+.input_login {
+	display: block;
+	margin: 0 auto;
+}
+
+/* Parágrafo */
+p {
+	text-align: center;
+	margin-top: 30px;
+}
+
+/* Botão enviar */
+.botao_enviar {
+	background: #F0EDED;
+	border: 3px solid #1EA6D196;
+
+	font-size: 14px;
+
+	display: block;
+	width: 140px;
+	height: 35px;
+	margin: 30px auto;
+}
