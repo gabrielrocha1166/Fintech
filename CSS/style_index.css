@@ -1,61 +1,45 @@
 body {
-	background: linear-gradient(0deg, rgba(0, 0, 0, 0.27), rgba(0, 0, 0, 0.27)), #1EA6D1;
+	background: #0e8aaf;
+	font-family: var(--bs-font-sans-serif);
 }
 
-.row {
-	--bs-gutter-x: 0;
-}
-
-/*Logo FT*/
-.img-fluid {
+.logo {
 	margin: 12px 0 0 24px;
 }
 
-/* Título: FINTECH */
-h1 {
-	color: #FFFFFF;
-	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
-	font-style: normal;
-	font-weight: 400;
-	font-size: 30px;
-	text-align: center;
-	text-transform: uppercase;
-
-	position: relative;
-	width: 100%;
-	margin-top: 45px;
+section.cabecalho {
+	margin-top: 80px;
 }
 
-/* Subtítulo:  Organização e investimento */
+h1 {
+	color: #FFFFFF;
+	font-style: normal;
+	font-size: 30px;
+	font-weight: 400;
+	text-align: center;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 h2 {
 	color: #FFFFFF;
-
 	font-family: 'Kadwa';
 	font-style: normal;
-	font-weight: 400;
 	font-size: 20px;
+	font-weight: 400;
 	text-align: center;
-
-	position: relative;
-	width: 100%;
 	margin-top: 20px;
 }
 
-
-/* Botões da tela inicial */
-main {
-	margin-top: 25px;
+section.botoes {
+	margin-top: 50px;
 }
 
 button {
 	background: #F0EDED;
 	border: 3px solid #FFFFFF;
 	border-radius: 5px;
-
-	display: block;
 	width: 200px;
 	height: 60px;
 	margin: 15px auto;
+	display: block;
 }
-
