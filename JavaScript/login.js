@@ -1,5 +1,5 @@
-const btn_login = document.querySelector("button#btn_login")
-const btn_esqueci = document.querySelector("button#btn_esqueci")
+const btn_login = document.querySelector(".entrar")
+const btn_esqueci = document.querySelector(".esqueci_senha")
 
 btn_login.onclick = function () {
     open('painel_de_controle.html')

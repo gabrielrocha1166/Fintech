@@ -1,5 +1,5 @@
-const btn_entrar = document.querySelector("button#btn_entrar")
-const btn_novo = document.querySelector("button#btn_novo")
+const btn_entrar = document.querySelector("#entrar")
+const btn_novo = document.querySelector("#novo_usuario")
 
 btn_entrar.onclick = function () {
     open('login.html')
