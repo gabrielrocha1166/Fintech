@@ -13,7 +13,8 @@ body {
 	height: 332px;
 	border-radius: 5px;
 	margin: 65px auto 0;
-	padding: 50px 43px 0;
+	padding-top: 50px;
+	text-align: center;
 }
 
 h1 {
@@ -25,8 +26,14 @@ h1 {
 	margin-bottom: 30px;
 }
 
+form {
+	display: inline-block;
+}
+ 
 label {
-	margin: 10px 0 5px;
+	display: block;
+	margin: 10px 0 5px; 
+	text-align: left;
 }
 
 button.entrar {
