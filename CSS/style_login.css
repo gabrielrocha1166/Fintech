@@ -23,7 +23,7 @@ h1 {
 	font-size: 18px;
 	font-weight: 600;
 	text-align: center;
-	margin-bottom: 30px;
+	margin-bottom: 15px;
 }
 
 form {
@@ -32,13 +32,14 @@ form {
  
 label {
 	display: block;
-	margin: 10px 0 5px; 
+	margin: 20px 0 5px; 
 	text-align: left;
 }
 
 button.entrar {
 	background: #F0EDED;
 	border: 3px solid #1EA6D196;
+	color: black;
 	border-radius: 5px;
 	font-size: 14px;
 	width: 140px;
