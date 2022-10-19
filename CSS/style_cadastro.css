@@ -39,6 +39,8 @@ label {
 input#data_de_nascimento {
 	width: 179px;
 	height: 30px;
+	border-color: #000000;
+	border-width: 1px;
 }
 
 button.concluir {
