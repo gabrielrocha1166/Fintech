@@ -1,4 +1,4 @@
-const btn_login = document.querySelector("button#btn_login")
+const btn_concluir = document.querySelector(".concluir")
 
 btn_concluir.onclick = function () {
     open('painel_de_controle.html')
