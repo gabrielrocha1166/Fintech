@@ -39,7 +39,8 @@ label {
 input#data_de_nascimento {
 	width: 179px;
 	height: 30px;
-	border-color: #000000;
+	background-color: #FFFFFF;
+	border-color: black;
 	border-width: 1px;
 }
 
