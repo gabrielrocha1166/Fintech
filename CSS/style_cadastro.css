@@ -39,7 +39,6 @@ label {
 .form-control {
 	border: 1px solid #000000;
 	height: 30px;
-	justify-content: center;
 }
 
 button.concluir {
