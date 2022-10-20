@@ -11,7 +11,7 @@
 		<link rel="stylesheet" href="css/reset.css">
 
 		<!-- CSS Personalizado -->
-		<link rel="stylesheet" href="../css/style_painel_de_controle.css">
+		<link rel="stylesheet" href="css/style_painel_de_controle.css">
 
 	    <title>Painel de controle</title>
 	</head>
@@ -20,7 +20,7 @@
 			<img src="ícones/user.svg" alt="Usuário" class="usuario">
 			<h1>Gabriel Rocha</h1>
 			<nav>
-				<img src="ícones/tres_tracos.svg" class="men">
+				<img src="ícones/tres_tracos.svg" class="menu">
 			</nav>
 			<form>
 				<label>
@@ -30,57 +30,53 @@
 			</form>
 		</header>
 		<main>
-				<section>
-					<div class="container">
-						<div class="row">
-							<div class="col saldo">
-								<p>Saldo</p>
-								<p class="valores">R$17.984,58</p>
-							</div>
-							<div class=" col despesas">
-								<p>Despesas do mês</p>
-								<p class="valores">R$5.984,58</p>
-							</div>
+			<section>
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-auto">
+							<p class="saldo">Saldo</p>
+							<p id="valor_saldo">R$17.984,58</p>
+						</div>
+						<div class="col-auto">
+							<p class="despesa">Despesas do mês</p>
+							<p id="valor_despesa">R$5.984,58</p>
 						</div>
 					</div>
-				</section>
-				<section>
-					<div class="container">
-							<div class="row justify-content-center">
-								<div class="col-auto">
-									<button><img src="../ícones/prancheta.svg">Metas</button>
-								</div>
-								<div class="col-auto">
-									<button><img src="../ícones/cartao.svg">Cartões</button>
-								</div>
-								<div class="col-auto">
-									<button><img src="../ícones/grafico_crescente.svg">Receitas</button>
-								</div>
-								<div class="col-auto">
-									<button><img src="../ícones/grafico_decrescente.svg">Despesas</button>
-								</div>
-								<div class="col-auto">
-									<button><img src="../ícones/dolarcoin.svg">Investimentos</button>
-								</div>
-								<div class="col-auto">
-								<button><img src="../ícones/dolar_cash.svg">Transações</button>
-								</div>
-							</div>
+					<div class="row justify-content-center botoes_principais">
+						<div class="col-auto">
+							<button><img src="ícones/prancheta.svg">Metas</button>
+						</div>
+						<div class="col-auto">
+							<button><img src="ícones/cartao.svg">Cartões</button>
+						</div>
+						<div class="col-auto">
+							<button><img src="ícones/grafico_crescente.svg">Receitas</button>
+						</div>
+						<div class="col-auto">
+							<button><img src="ícones/grafico_decrescente.svg">Despesas</button>
+						</div>
+						<div class="col-auto">
+							<button><img src="ícones/dolarcoin.svg">Investimentos</button>
+						</div>
+						<div class="col-auto">
+						<button><img src="ícones/dolar_cash.svg">Transações</button>
+						</div>
 					</div>
-				</section>
-				<div class="caixa">
-						<p>Transações</p>
-						<img src="../ícones/adicionar.svg">
 				</div>
-				
+			</section>
+			<section class="box_transacoes">
+				<p>Transações</p>
+				<img src="ícones/adicionar.svg">
+			</section>
 		</main>
 	    <footer class="fixed-bottom">
-	        	<div class="caixa_rodape">
-		        	<img src="../ícones/inicio.svg">
-		        	<img src="../ícones/carteira.svg">
-		        	<img src="../ícones/adicionar_2.svg">
-		        	<img src="../ícones/grafico.svg">
-		        	<img src="../ícones/configuracoes.svg">
+			<section class="box_rodape">
+				<img src="ícones/inicio.svg">
+				<img src="ícones/carteira.svg">
+				<img src="ícones/adicionar_2.svg">
+				<img src="ícones/grafico.svg">
+				<img src="ícones/configuracoes.svg">
+			</section>
 	    </footer>
 
 	    <!-- JavaScript -->
