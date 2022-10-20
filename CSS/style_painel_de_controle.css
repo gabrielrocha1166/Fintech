@@ -71,8 +71,8 @@ p#valor_saldo, #valor_despesa {
 
 .botoes_principais button img {
 	vertical-align: middle;
-	margin-right: 5px;
 	float: left;
+	width: 15PX;
 }
 
 .box_transacoes {
