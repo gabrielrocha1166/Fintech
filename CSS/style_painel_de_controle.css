@@ -62,9 +62,9 @@ p#valor_saldo, #valor_despesa {
 	border: 3px solid #A7E0F259;
 	color: #000;
 	border-radius: 5px;
-	font-size: 14px;
+	font-size: 13px;
 	text-align: center;
-	width: 130px;
+	width: 135px;
 	height: 45px;
 	margin-top: 15px;
 }
