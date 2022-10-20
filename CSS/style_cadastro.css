@@ -38,12 +38,10 @@ label {
 
 input[type="date"] {
 	background-color: #FFFFFF;
-	border-color: #3f3f3f !important;
-	border: solid;
+	color: black;
 	border-width: 1px;
-	width: 179px !important;
-	height: 30px !important;
-	font-size: 20px;
+	width: 179px;
+	height: 30px;
 }
 
 button.concluir {
