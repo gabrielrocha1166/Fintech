@@ -36,11 +36,8 @@ label {
 	text-align: left;
 }
 
-input[type="date"] {
-	background-color: #FFFFFF;
-	color: black;
-	border-width: 1px;
-	width: 179px;
+.form-control {
+	border: 1px solid #000000;
 	height: 30px;
 }
 
