@@ -60,6 +60,7 @@ p#valor_saldo, #valor_despesa {
 .botoes_principais button {
 	background: #F0EDED;
 	border: 3px solid #A7E0F259;
+	color: #000;
 	border-radius: 5px;
 	font-size: 14px;
 	text-align: center;
