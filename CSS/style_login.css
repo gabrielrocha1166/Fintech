@@ -36,6 +36,10 @@ label {
 	text-align: left;
 }
 
+::placeholder {
+	text-align: center;
+}
+
 button.entrar {
 	background: #F0EDED;
 	border: 3px solid #1EA6D196;

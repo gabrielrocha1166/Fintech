@@ -34,7 +34,7 @@ label {
 }
 
 input.pesquisa {
-    width: 90%;
+    width: calc(100% - 21px);
     border: 0;
     height: 30px;
     background: #F0EDED

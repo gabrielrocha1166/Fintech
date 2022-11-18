@@ -1,10 +1,28 @@
-const btn_login = document.querySelector(".entrar")
+const btn_entrar = document.querySelector(".entrar")
 const btn_esqueci = document.querySelector(".esqueci_senha")
 
-btn_login.onclick = function () {
-    open('painel_de_controle.html')
- }
+btn_entrar.onclick = function () {
+   if(document.querySelector("#E-mail").value=="" ||
+   document.querySelector("#E-mail").value.indexOf('@')==-1 || 
+   document.querySelector("#E-mail").value.indexOf('.')==-1
+   )
+   {
+   alert( "Preencha campo E-mail corretamente corretamente!" );
+   document.querySelector("#E-mail").focus();
+   return false;
+   }
 
- btn_esqueci.onclick = function () {
-    open('esqueci_minha_senha.html')
- }
+   if(document.querySelector("#Senha").value=="" ||
+   document.querySelector("#Senha").value.length < 8)
+   {
+   alert( "Preencha campo SENHA corretamente!" );
+   document.querySelector("#Senha").focus();
+   return false;
+   }
+
+   open('painel_de_controle.html')
+}
+
+btn_esqueci.onclick = function () {
+   open('esqueci_minha_senha.html')
+}

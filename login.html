@@ -11,7 +11,7 @@
 		<link rel="stylesheet" href="css/reset.css">
 
 		<!-- CSS Personalizado -->
-		<link rel="stylesheet" href="../css/style_login.css">
+		<link rel="stylesheet" href="css/style_login.css">
 
 	    <title>Login</title>
 	</head>
@@ -24,9 +24,9 @@
 				<h1>Login</h1>
 				<form>
 					<label for="E-mail">E-mail</label>
-					<input type="E-mail" name="E-mail" id="E-mail" required autocomplete="on">
+					<input type="E-mail" name="E-mail" id="E-mail" required autocomplete="on" placeholder="máximo 50 caracteres">
 					<label for="Senha">Senha</label>
-					<input type="password" name="Senha" id="Senha" required>
+					<input type="password" name="Senha" id="Senha" required minlength="8" maxlength="50" placeholder="máximo 50 caracteres">
 				</form>
 				<button class="entrar">Entrar</button>
 				<button class="esqueci_senha">Esqueci minha senha</button>

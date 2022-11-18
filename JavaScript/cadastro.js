@@ -30,7 +30,7 @@ btn_enviar.onclick = function () {
    if(document.querySelector("#Senha").value=="" ||
    document.querySelector("#Senha").value.length < 8)
    {
-   alert( "Preencha campo SENHA corretamente!" );
+   alert( "Preencha campo SENHA com no mínimo 8 caracteres!" );
    document.querySelector("#Senha").focus();
    return false;
    }
