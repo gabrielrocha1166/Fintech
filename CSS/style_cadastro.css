@@ -29,6 +29,10 @@ h1 {
 form {
 	display: inline-block;
 }
+
+::placeholder {
+	text-align: center;
+}
  
 label {
 	display: block;
