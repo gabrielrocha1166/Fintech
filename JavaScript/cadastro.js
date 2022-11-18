@@ -9,13 +9,13 @@ btn_enviar.onclick = function () {
    return false;
    }
 
-   if(document.querySelector("#data_de_nascimento").value=="" ||
-   document.querySelector("#data_de_nascimento").value.length < 8)
-   {
-   alert( "Preencha campo DATA DE NASCIMENTO corretamente!" );
-   document.querySelector("#data_de_nascimento").focus();
-   return false;
-   }
+   // if(document.querySelector("#data_de_nascimento").value=="" ||
+   // document.querySelector("#data_de_nascimento").value.length < 8)
+   // {
+   // alert( "Preencha campo DATA DE NASCIMENTO corretamente!" );
+   // document.querySelector("#data_de_nascimento").focus();
+   // return false;
+   // }
 
    if(document.querySelector("#E-mail").value=="" ||
    document.querySelector("#E-mail").value.indexOf('@')==-1 || 
@@ -32,6 +32,13 @@ btn_enviar.onclick = function () {
    {
    alert( "Preencha campo SENHA com no mínimo 8 caracteres!" );
    document.querySelector("#Senha").focus();
+   return false;
+   }
+
+   if(document.querySelector("#Senha").value!=document.querySelector("#Confirmar_senha").value)
+   {
+   alert( "Senhas diferentes! A confirmação da senha deve ser igual a senha digitada acima." );
+   document.querySelector("#Confirmar_senha").focus();
    return false;
    }
 
