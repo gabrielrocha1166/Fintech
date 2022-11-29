@@ -30,20 +30,13 @@ form {
 	display: inline-block;
 }
 
-::placeholder {
-	text-align: center;
-}
- 
-label {
-	display: block;
-	margin: 20px 0 5px; 
-	text-align: left;
-}
-
-.form-control {
-	border: 1px solid #797474;
-	border-radius: 3px;
-	height: 30px;
+input {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: solid 1px #acacac;
+	margin: 20px 0 5px;
+	padding: 0 0 5px 0;
 }
 
 button.concluir {

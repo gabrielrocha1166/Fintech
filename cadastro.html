@@ -1,45 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-	<head>
-		<meta charset="UTF-8">
-	    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	    <!-- Bootstrap CSS -->
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<!-- Reset CSS -->
-		<link rel="stylesheet" href="css/reset.css">
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-		<!-- CSS Personalizado -->
-		<link rel="stylesheet" href="css/style_cadastro.css">
+	<!-- Reset CSS -->
+	<link rel="stylesheet" href="css/reset.css">
 
-	    <title>Cadastre-se</title>
-	</head>
-	<body>
-		<header>
-			<img src="ícones/logo.svg" alt="logo" class="logo">
-		</header>
-		<main>
-			<section class="box">
-				<h1>Cadastre-se</h1>
-				 <form>
-					<label for="nome_completo">Nome completo</label>
-					<input type="text" name="nome_completo" id="nome_completo" maxlength="50" placeholder="máximo 50 caracteres" autocomplete="on">
-					<!-- <label for="data_de_nascimento">Data de nascimento</label>
-					<input type="date" name="data_de_nascimento" id="data_de_nascimento" class="form-control input-min-width-95p" > -->
-					<label for="E-mail">E-mail</label>
-					<input type="E-mail" name="E-mail" id="E-mail" maxlength="50" placeholder="máximo 50 caracteres" autocomplete="on">
-					<label for="Senha">Criar senha</label>
-					<input type="password" name="Senha" id="Senha" minlength="8" maxlength="50" placeholder="máximo 50 caracteres">
-					<label for="Confirmar_senha">Confirmar senha</label>
-					<input type="password" name="Confirmar_senha" id="Confirmar_senha" minlength="8" maxlength="50" placeholder="máximo 50 caracteres">
-					<button type="submit" class="concluir">Concluir</button>
-				</form>
-				
-			</section>
-		</main>
+	<!-- CSS Personalizado -->
+	<link rel="stylesheet" href="css/cadastro.css">
 
-	    <!-- JavaScript-->
-		<script src="javascript/cadastro.js"></script>
-	</body>
+	<title>Cadastre-se</title>
+</head>
+
+<body>
+	<img src="ícones/logo.svg" alt="logo" class="logo">
+
+	<main>
+		<section class="box">
+			<h1>Cadastre-se</h1>
+			<form>
+				<input type="text" name="nome_completo" id="nome_completo" maxlength="50"
+					placeholder="Nome completo" autocomplete="on">
+				<input type="text" name="data_de_nascimento" id="data_de_nascimento" placeholder="Data de nascimento">
+				<input type="E-mail" name="E-mail" id="E-mail" maxlength="50" placeholder="E-mail"
+					autocomplete="on">
+				<input type="password" name="Senha" id="Senha" minlength="8" maxlength="50"
+					placeholder="Criar senha">
+				<input type="password" name="Confirmar_senha" id="Confirmar_senha" minlength="8" maxlength="50"
+					placeholder="Confirmar senha">
+				<button type="submit" class="concluir">Concluir</button>
+			</form>
+
+		</section>
+	</main>
+
+	<!-- JavaScript-->
+	<script src="javascript/cadastro.js"></script>
+</body>
+
 </html>
