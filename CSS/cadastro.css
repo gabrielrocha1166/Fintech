@@ -28,16 +28,18 @@ h1 {
 
 form {
 	display: inline-block;
+	width: 171px;
 }
 
 input {
-	border-radius: none;
-	border-top: none;
-	border-left: none;
-	border-right: none;
-	border-bottom: solid 1px #acacac;
-	margin: 20px 0 5px;
-	padding: 0 0 5px 0;
+	border: none;
+	margin: 20px 0 0 0;
+}
+
+hr {
+	width: 171px;
+	text-align: center;
+	margin: 5px 0 0;
 }
 
 button.concluir {
