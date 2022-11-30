@@ -1,39 +1,43 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-	<head>
-	    <meta charset="UTF-8">
-	    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	    <!-- Bootstrap CSS -->
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<!-- Reset CSS -->
-		<link rel="stylesheet" href="css/reset.css">
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-		<!-- CSS Personalizado -->
-		<link rel="stylesheet" href="css/style_login.css">
+	<!-- Reset CSS -->
+	<link rel="stylesheet" href="css/reset.css">
 
-	    <title>Login</title>
-	</head>
-	<body>
-		<header>
-			<img src="ícones/logo.svg" alt="logo" class="logo">
-		</header>
-		<main>
-			<section class="box">
-				<h1>Login</h1>
-				<form>
-					<label for="E-mail">E-mail</label>
-					<input type="E-mail" name="E-mail" id="E-mail" required autocomplete="on" placeholder="máximo 50 caracteres">
-					<label for="Senha">Senha</label>
-					<input type="password" name="Senha" id="Senha" required minlength="8" maxlength="50" placeholder="máximo 50 caracteres">
-				</form>
-				<button class="entrar">Entrar</button>
-				<button class="esqueci_senha">Esqueci minha senha</button>
-			</section>
-		</main>
-		
-	    <!-- JavaScript-->
-		<script src="javascript/login.js"></script>
-	</body>
+	<!-- CSS Personalizado -->
+	<link rel="stylesheet" href="css/login.css">
+
+	<title>Login</title>
+</head>
+
+<body>
+	<img src="ícones/logo.svg" alt="logo" class="logo">
+	<main>
+		<section class="box">
+			<h1>Login</h1>
+			<form>
+				<input type="E-mail" name="E-mail" id="E-mail" required autocomplete="on"
+					placeholder="E-mail">
+				<hr>
+				<input type="password" name="Senha" id="Senha" required minlength="8" maxlength="50"
+					placeholder="Senha">
+				<hr>
+			</form>
+			<button class="entrar">Entrar</button>
+		</section>
+		<button class="esqueci_minha_senha">Esqueci minha senha</button>
+	</main>
+
+	<!-- JavaScript-->
+	<script src="javascript/login.js"></script>
+</body>
+
 </html>

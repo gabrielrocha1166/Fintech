@@ -28,24 +28,21 @@ h1 {
 
 form {
 	display: inline-block;
-}
- 
-label {
-	display: block;
-	margin: 20px 0 5px; 
-	text-align: left;
+	width: 171px;
 }
 
-::placeholder {
+input {
+	border: none;
+	margin: 20px 0 0 0;
+}
+
+hr {
+	width: 171px;
 	text-align: center;
+	margin: 5px 0 0;
 }
 
-p {
-	text-align: center;
-	margin-top: 30px;
-}
-
-button.enviar {
+button.entrar {
 	background: #F0EDED;
 	border: 3px solid #1EA6D196;
 	color: black;
@@ -54,5 +51,15 @@ button.enviar {
 	width: 140px;
 	height: 35px;
 	margin: 45px auto;
+	display: block;
+}
+
+button.esqueci_minha_senha {
+	background-color: transparent;
+	color: #FFFFFF;
+	text-align: center;
+	border: none;
+	font-size: 15px;
+	margin: 15px auto;
 	display: block;
 }

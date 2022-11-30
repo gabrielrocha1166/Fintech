@@ -1,5 +1,5 @@
 const btn_entrar = document.querySelector(".entrar")
-const btn_esqueci = document.querySelector(".esqueci_senha")
+const btn_esqueci_minha_senha = document.querySelector(".esqueci_minha_senha")
 
 btn_entrar.onclick = function () {
    if(document.querySelector("#E-mail").value=="" ||
@@ -23,6 +23,6 @@ btn_entrar.onclick = function () {
    open('painel_de_controle.html')
 }
 
-btn_esqueci.onclick = function () {
+btn_esqueci_minha_senha.onclick = function () {
    open('esqueci_minha_senha.html')
 }
