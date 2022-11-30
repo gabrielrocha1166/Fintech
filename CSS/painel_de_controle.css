@@ -40,21 +40,30 @@ input.pesquisa {
     background: #F0EDED
 }
 
-.saldo, .despesa {
+p {
 	color: #FFF;
 	font-style: normal;
-	font-size: 16px;
-	display: block;
-	width: 130px;
+}
+
+.saldo_atual {
+	text-align: center;
 	margin-top: 15px;
 }
 
-p#valor_saldo, #valor_despesa {
+.saldo, .despesa {
+	display: block;
+	width: 130px;
+	margin-top: 20px;
+	font-size: 16px;
+}
+
+.valor {
 	color: #FFF;
 	font-style: normal;
 	font-size: 18px;
 	margin-top: 5px;
 	width: 130px;
+	display: inline-block;
 }
 
 .botoes_principais button {
