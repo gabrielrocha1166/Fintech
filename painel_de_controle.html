@@ -34,8 +34,8 @@
 		</form>
 	</header>
 	<main>
-		<section>
-			<div class="container">
+		<div class="container">
+			<section>
 				<div class="row justify-content-center">
 					<div class="col-12 saldo_atual">
 						<p>Saldo atual</p>
@@ -59,10 +59,10 @@
 					</div>
 					<div class="col-auto">
 						<button><img src="ícones/prancheta.svg">Metas</button>
-					</div>					
+					</div>
 					<div class="col-auto">
 						<button><img src="ícones/cartao.svg">Cartões</button>
-					</div>					
+					</div>
 					<div class="col-auto">
 						<button><img src="ícones/dolarcoin.svg">Investimentos</button>
 					</div>
@@ -70,12 +70,13 @@
 						<button><img src="ícones/dolar_cash.svg">Transações</button>
 					</div>
 				</div>
-			</div>
-		</section>
-		<section class="box_transacoes">
-			<p>Transações</p>
-			<img src="ícones/adicionar.svg">
-		</section>
+			</section>
+			<section>
+				<p class="cartoes">Cartões de crédito</p>
+				<img class="adicionar" src="ícones/adicionar.svg">
+				<div class="box_cartoes"></div>
+			</section>
+		</div>
 	</main>
 	<footer class="fixed-bottom">
 		<section class="box_rodape">
